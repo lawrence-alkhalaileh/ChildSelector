@@ -1,0 +1,30 @@
+div {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 30px 30px;
+}
+
+div::after {
+    content: "*";
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+div:nth-child(6n + 4),
+div:nth-child(6n + 5),
+div:nth-child(6n + 6) {
+    background-color: blue;
+}
+
+div:nth-child(6n + 4)::after,
+div:nth-child(6n + 5)::after,
+div:nth-child(6n + 6)::after {
+    content: "x";
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}

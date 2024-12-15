@@ -1,0 +1,16 @@
+div{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+div:nth-child(even){
+    display: none;
+}
