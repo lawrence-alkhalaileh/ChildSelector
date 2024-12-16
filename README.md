@@ -10,4 +10,4 @@ Welcome to the **Child Selector repository**! This repository contains 4 styles 
 
 3. **Style 3: edit div's color with advanced selectors**
 
-4. **Style 4:**
+4. **Style 4: CSS selectors tricks**
